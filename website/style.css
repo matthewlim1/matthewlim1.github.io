@@ -1,0 +1,28 @@
+/* Add a class to style the logo */
+.splash-logo {
+    width: 100px; /* adjust the logo size */
+    margin: 40px auto; /* center the logo horizontally */
+  }
+  
+  /* Add a class to style the main content */
+  .main-content {
+    display: none; /* hide the main content initially */
+  }
+  
+  /* Add a class to style the splash screen */
+  .splash-screen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff; /* white background, adjust as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.5s; /* add a transition effect for opacity */
+  }
+  
+  .splash-screen.fade-out {
+    opacity: 0; /* set opacity to 0 when fade-out class is added */
+  }
